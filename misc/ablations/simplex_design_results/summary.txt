@@ -1,0 +1,8 @@
+Nimbus ablations (K=3, CIFAR-100, n_w=100)
+variant        mean clean NLL    worst clean NLL
+full                   1.3040             1.7548
+pairwise               1.8950             2.6937
+interior               1.7591             6.2718
+separate               1.5013             3.5682
+no_kl                  1.3680             2.1651
+no_phase2              1.4803             2.0609

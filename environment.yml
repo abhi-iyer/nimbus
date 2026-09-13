@@ -1,0 +1,22 @@
+name: nimbus
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pytorch=2.5.0
+  - pytorch-cuda=12.4
+  - torchvision=0.20.0
+  - numpy=1.23.*
+  - matplotlib=3.9.*
+  - tqdm
+  # experiments/llm/data.py reads the HuggingFace parquet corpora directly.
+  - pyarrow>=14
+  - pip
+  - pip:
+    # experiments/vit: CLIP ViT-B/32 backbone + tokenizer (transformers) and the
+    # Cars / RESISC45 / SUN397 task datasets (datasets).
+    - transformers>=4.40
+    - datasets>=2.19
+    - -e .
