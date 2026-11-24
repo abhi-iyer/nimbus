@@ -124,7 +124,7 @@ if you find this work useful, please cite our paper!
 
 ```bibtex
 @inproceedings{iyer2026nimbus,
-  title     = {The {M}arauder's {M}ap: {B}{\'e}zier Manifolds Reveal Hidden Surfaces for Model Merging and Ensembling},
+  title     = {The Marauder's Map: Bézier Manifolds Reveal Hidden Surfaces for Model Merging and Ensembling},
   author    = {Iyer, Abhiram and Harnett, Mark T. and Chandra, Sarthak},
   booktitle = {Advances in Neural Information Processing Systems},
   year      = {2026}
